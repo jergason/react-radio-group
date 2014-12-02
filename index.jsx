@@ -2,7 +2,9 @@
 * @jsx React.DOM
 */
 
-var RadioGroup = React.createClass({displayName: 'RadioGroup',
+var React = require('react');
+
+var RadioGroup = React.createClass({
   getInitialState: function() {
     // check the first block of comment in `setCheckedRadio`
     return {defaultValue: this.props.defaultValue};
@@ -20,9 +22,9 @@ var RadioGroup = React.createClass({displayName: 'RadioGroup',
 
   render: function() {
     return this.transferPropsTo(
-      React.DOM.div( {onChange:this.props.onChange}, 
-        this.props.children
-      )
+      <div onChange={this.props.onChange}>
+        {this.props.children}
+      </div>
     );
   },
 
@@ -74,3 +76,5 @@ var RadioGroup = React.createClass({displayName: 'RadioGroup',
     return null;
   }
 });
+
+module.exports = RadioGroup;

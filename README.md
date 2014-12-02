@@ -1,5 +1,9 @@
 # [React](http://facebook.github.io/react/)-radio-group
 
+This is a fork of
+[https://github.com/chenglou/react-radio-group](https://github.com/chenglou/react-radio-group)
+updated to work with npm and commonjs.
+
 This is your average radios group:
 
 ```html
