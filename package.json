@@ -22,11 +22,5 @@
   "bugs": {
     "url": "https://github.com/jergason/react-radio-group/issues"
   },
-  "homepage": "https://github.com/jergason/react-radio-group",
-  "devDependencies": {
-    "react-tools": "0.12.1"
-  },
-  "peerDependencies": {
-    "react": "0.12.x"
-  }
+  "homepage": "https://github.com/jergason/react-radio-group"
 }
